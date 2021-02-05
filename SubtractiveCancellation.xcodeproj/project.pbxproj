@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D567F4B525CDB73C006DA298 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F4B425CDB73C006DA298 /* Tests_iOS.swift */; };
+		D567F4C025CDB73C006DA298 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F4BF25CDB73C006DA298 /* Tests_macOS.swift */; };
+		D567F4C225CDB73C006DA298 /* SubtractiveCancellationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F49925CDB738006DA298 /* SubtractiveCancellationApp.swift */; };
+		D567F4C325CDB73C006DA298 /* SubtractiveCancellationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F49925CDB738006DA298 /* SubtractiveCancellationApp.swift */; };
+		D567F4C425CDB73C006DA298 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F49A25CDB738006DA298 /* ContentView.swift */; };
+		D567F4C525CDB73C006DA298 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567F49A25CDB738006DA298 /* ContentView.swift */; };
+		D567F4C625CDB73C006DA298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D567F49B25CDB73C006DA298 /* Assets.xcassets */; };
+		D567F4C725CDB73C006DA298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D567F49B25CDB73C006DA298 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D567F4B125CDB73C006DA298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D567F49425CDB738006DA298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D567F49F25CDB73C006DA298;
+			remoteInfo = "SubtractiveCancellation (iOS)";
+		};
+		D567F4BC25CDB73C006DA298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D567F49425CDB738006DA298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D567F4A725CDB73C006DA298;
+			remoteInfo = "SubtractiveCancellation (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D567F49925CDB738006DA298 /* SubtractiveCancellationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractiveCancellationApp.swift; sourceTree = "<group>"; };
+		D567F49A25CDB738006DA298 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D567F49B25CDB73C006DA298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D567F4A025CDB73C006DA298 /* SubtractiveCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubtractiveCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D567F4A325CDB73C006DA298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D567F4A825CDB73C006DA298 /* SubtractiveCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubtractiveCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D567F4AA25CDB73C006DA298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D567F4AB25CDB73C006DA298 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D567F4B025CDB73C006DA298 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D567F4B425CDB73C006DA298 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D567F4B625CDB73C006DA298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D567F4BB25CDB73C006DA298 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D567F4BF25CDB73C006DA298 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D567F4C125CDB73C006DA298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D567F49D25CDB73C006DA298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4A525CDB73C006DA298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4AD25CDB73C006DA298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4B825CDB73C006DA298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D567F49325CDB738006DA298 = {
+			isa = PBXGroup;
+			children = (
+				D567F49825CDB738006DA298 /* Shared */,
+				D567F4A225CDB73C006DA298 /* iOS */,
+				D567F4A925CDB73C006DA298 /* macOS */,
+				D567F4B325CDB73C006DA298 /* Tests iOS */,
+				D567F4BE25CDB73C006DA298 /* Tests macOS */,
+				D567F4A125CDB73C006DA298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D567F49825CDB738006DA298 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D567F49925CDB738006DA298 /* SubtractiveCancellationApp.swift */,
+				D567F49A25CDB738006DA298 /* ContentView.swift */,
+				D567F49B25CDB73C006DA298 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D567F4A125CDB73C006DA298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D567F4A025CDB73C006DA298 /* SubtractiveCancellation.app */,
+				D567F4A825CDB73C006DA298 /* SubtractiveCancellation.app */,
+				D567F4B025CDB73C006DA298 /* Tests iOS.xctest */,
+				D567F4BB25CDB73C006DA298 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D567F4A225CDB73C006DA298 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D567F4A325CDB73C006DA298 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D567F4A925CDB73C006DA298 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D567F4AA25CDB73C006DA298 /* Info.plist */,
+				D567F4AB25CDB73C006DA298 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D567F4B325CDB73C006DA298 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D567F4B425CDB73C006DA298 /* Tests_iOS.swift */,
+				D567F4B625CDB73C006DA298 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D567F4BE25CDB73C006DA298 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D567F4BF25CDB73C006DA298 /* Tests_macOS.swift */,
+				D567F4C125CDB73C006DA298 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D567F49F25CDB73C006DA298 /* SubtractiveCancellation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D567F4CA25CDB73C006DA298 /* Build configuration list for PBXNativeTarget "SubtractiveCancellation (iOS)" */;
+			buildPhases = (
+				D567F49C25CDB73C006DA298 /* Sources */,
+				D567F49D25CDB73C006DA298 /* Frameworks */,
+				D567F49E25CDB73C006DA298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SubtractiveCancellation (iOS)";
+			productName = "SubtractiveCancellation (iOS)";
+			productReference = D567F4A025CDB73C006DA298 /* SubtractiveCancellation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D567F4A725CDB73C006DA298 /* SubtractiveCancellation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D567F4CD25CDB73C006DA298 /* Build configuration list for PBXNativeTarget "SubtractiveCancellation (macOS)" */;
+			buildPhases = (
+				D567F4A425CDB73C006DA298 /* Sources */,
+				D567F4A525CDB73C006DA298 /* Frameworks */,
+				D567F4A625CDB73C006DA298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SubtractiveCancellation (macOS)";
+			productName = "SubtractiveCancellation (macOS)";
+			productReference = D567F4A825CDB73C006DA298 /* SubtractiveCancellation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D567F4AF25CDB73C006DA298 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D567F4D025CDB73C006DA298 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D567F4AC25CDB73C006DA298 /* Sources */,
+				D567F4AD25CDB73C006DA298 /* Frameworks */,
+				D567F4AE25CDB73C006DA298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D567F4B225CDB73C006DA298 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D567F4B025CDB73C006DA298 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D567F4BA25CDB73C006DA298 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D567F4D325CDB73C006DA298 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D567F4B725CDB73C006DA298 /* Sources */,
+				D567F4B825CDB73C006DA298 /* Frameworks */,
+				D567F4B925CDB73C006DA298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D567F4BD25CDB73C006DA298 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D567F4BB25CDB73C006DA298 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D567F49425CDB738006DA298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D567F49F25CDB73C006DA298 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D567F4A725CDB73C006DA298 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D567F4AF25CDB73C006DA298 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D567F49F25CDB73C006DA298;
+					};
+					D567F4BA25CDB73C006DA298 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D567F4A725CDB73C006DA298;
+					};
+				};
+			};
+			buildConfigurationList = D567F49725CDB738006DA298 /* Build configuration list for PBXProject "SubtractiveCancellation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D567F49325CDB738006DA298;
+			productRefGroup = D567F4A125CDB73C006DA298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D567F49F25CDB73C006DA298 /* SubtractiveCancellation (iOS) */,
+				D567F4A725CDB73C006DA298 /* SubtractiveCancellation (macOS) */,
+				D567F4AF25CDB73C006DA298 /* Tests iOS */,
+				D567F4BA25CDB73C006DA298 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D567F49E25CDB73C006DA298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4C625CDB73C006DA298 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4A625CDB73C006DA298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4C725CDB73C006DA298 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4AE25CDB73C006DA298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4B925CDB73C006DA298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D567F49C25CDB73C006DA298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4C425CDB73C006DA298 /* ContentView.swift in Sources */,
+				D567F4C225CDB73C006DA298 /* SubtractiveCancellationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4A425CDB73C006DA298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4C525CDB73C006DA298 /* ContentView.swift in Sources */,
+				D567F4C325CDB73C006DA298 /* SubtractiveCancellationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4AC25CDB73C006DA298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4B525CDB73C006DA298 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D567F4B725CDB73C006DA298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567F4C025CDB73C006DA298 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D567F4B225CDB73C006DA298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D567F49F25CDB73C006DA298 /* SubtractiveCancellation (iOS) */;
+			targetProxy = D567F4B125CDB73C006DA298 /* PBXContainerItemProxy */;
+		};
+		D567F4BD25CDB73C006DA298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D567F4A725CDB73C006DA298 /* SubtractiveCancellation (macOS) */;
+			targetProxy = D567F4BC25CDB73C006DA298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D567F4C825CDB73C006DA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D567F4C925CDB73C006DA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D567F4CB25CDB73C006DA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.SubtractiveCancellation;
+				PRODUCT_NAME = SubtractiveCancellation;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D567F4CC25CDB73C006DA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.SubtractiveCancellation;
+				PRODUCT_NAME = SubtractiveCancellation;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D567F4CE25CDB73C006DA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.SubtractiveCancellation;
+				PRODUCT_NAME = SubtractiveCancellation;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D567F4CF25CDB73C006DA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLIIT.SubtractiveCancellation;
+				PRODUCT_NAME = SubtractiveCancellation;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D567F4D125CDB73C006DA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SubtractiveCancellation (iOS)";
+			};
+			name = Debug;
+		};
+		D567F4D225CDB73C006DA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SubtractiveCancellation (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D567F4D425CDB73C006DA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SubtractiveCancellation (macOS)";
+			};
+			name = Debug;
+		};
+		D567F4D525CDB73C006DA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CJZCVG5JC;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SLIIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SubtractiveCancellation (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D567F49725CDB738006DA298 /* Build configuration list for PBXProject "SubtractiveCancellation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567F4C825CDB73C006DA298 /* Debug */,
+				D567F4C925CDB73C006DA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D567F4CA25CDB73C006DA298 /* Build configuration list for PBXNativeTarget "SubtractiveCancellation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567F4CB25CDB73C006DA298 /* Debug */,
+				D567F4CC25CDB73C006DA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D567F4CD25CDB73C006DA298 /* Build configuration list for PBXNativeTarget "SubtractiveCancellation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567F4CE25CDB73C006DA298 /* Debug */,
+				D567F4CF25CDB73C006DA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D567F4D025CDB73C006DA298 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567F4D125CDB73C006DA298 /* Debug */,
+				D567F4D225CDB73C006DA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D567F4D325CDB73C006DA298 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567F4D425CDB73C006DA298 /* Debug */,
+				D567F4D525CDB73C006DA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D567F49425CDB738006DA298 /* Project object */;
+}
